@@ -93,7 +93,7 @@
                     android:layout_margin="0dp"
                     android:layout_weight="1"
                     android:background="#263238"
-                    android:text="&#215; "
+                    android:text="&#215;"
                     android:textColor="#1DE9B6"
                     android:textSize="36sp" />
 
