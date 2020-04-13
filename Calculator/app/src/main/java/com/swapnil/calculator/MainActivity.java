@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     input.setText("");
                 }
                 if (IsRemClicked == true) {
-                    output.setText(mNum1 + (mNum1 * mNum2) / 100 + "");
+                    output.setText(mNum1 + (mNum1 * mNum2) / 100 + "");//To perform % operation like (17+10%)=>(17%10)
                     IsRemClicked = false;
                     input.setText("");
                 }
