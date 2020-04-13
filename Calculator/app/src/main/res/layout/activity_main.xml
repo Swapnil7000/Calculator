@@ -25,6 +25,8 @@
                 android:layout_height="wrap_content"
                 android:background="#455A64"
                 android:gravity="end"
+                android:cursorVisible="false"
+                android:filterTouchesWhenObscured="true"
                 android:padding="10dp"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -36,7 +38,7 @@
                 android:background="#455A64"
                 android:gravity="end"
                 android:padding="10dp"
-                android:text="2554"
+                android:text=""
                 android:textColor="#ffffff"
                 android:textSize="60sp" />
 
@@ -48,7 +50,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_1"
+                    android:id="@+id/btn_7"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -60,7 +62,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_2"
+                    android:id="@+id/btn_8"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -72,7 +74,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_3"
+                    android:id="@+id/btn_9"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -84,7 +86,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_4"
+                    android:id="@+id/btn_mul"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -105,7 +107,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_5"
+                    android:id="@+id/btn_4"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -117,7 +119,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_6"
+                    android:id="@+id/btn_5"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -129,7 +131,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_7"
+                    android:id="@+id/btn_6"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -141,7 +143,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_8"
+                    android:id="@+id/btn_minus"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -162,7 +164,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_9"
+                    android:id="@+id/btn_1"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -174,7 +176,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_10"
+                    android:id="@+id/btn_2"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -186,7 +188,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_11"
+                    android:id="@+id/btn_3"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -198,7 +200,7 @@
                     android:textSize="36sp" />
 
                 <Button
-                    android:id="@+id/btn_12"
+                    android:id="@+id/btn_plus"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="72dp"
                     android:layout_height="70dp"
@@ -225,7 +227,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/btn_13"
+                        android:id="@+id/btn_dot"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="72dp"
                         android:layout_height="70dp"
@@ -237,7 +239,7 @@
                         android:textSize="36sp" />
 
                     <Button
-                        android:id="@+id/btn_14"
+                        android:id="@+id/btn_0"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="72dp"
                         android:layout_height="70dp"
@@ -249,7 +251,7 @@
                         android:textSize="36sp" />
 
                     <Button
-                        android:id="@+id/btn_15"
+                        android:id="@+id/btn_equal"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="72dp"
                         android:layout_height="70dp"
@@ -261,7 +263,7 @@
                         android:textSize="36sp" />
 
                     <Button
-                        android:id="@+id/btn_16"
+                        android:id="@+id/btn_divide"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="72dp"
                         android:layout_height="70dp"
@@ -280,7 +282,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/btn_18"
+                        android:id="@+id/btn_per"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="77dp"
                         android:layout_height="70dp"
@@ -292,7 +294,7 @@
                         android:textSize="36sp" />
 
                     <Button
-                        android:id="@+id/btn_19"
+                        android:id="@+id/btn_twozero"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="75dp"
                         android:layout_height="70dp"
@@ -304,21 +306,21 @@
                         android:textSize="36sp" />
 
                     <Button
-                        android:id="@+id/btn_20"
+                        android:id="@+id/btn_arrow"
                         style="?android:attr/borderlessButtonStyle"
                         android:layout_width="72dp"
                         android:layout_height="70dp"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
                         android:background="#455A64"
-                        android:text="→"
+                        android:text="←"
                         android:textColor="#1DE9B6"
                         android:textSize="36sp" />
 
                     <Button
-                        android:id="@+id/btn_17"
+                        android:id="@+id/btn_C"
                         style="?android:attr/borderlessButtonStyle"
-                        android:layout_width="76dp"
+                        android:layout_width="75dp"
                         android:layout_height="70dp"
                         android:layout_weight="1"
                         android:background="#263238"
