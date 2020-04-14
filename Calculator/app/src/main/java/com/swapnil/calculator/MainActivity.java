@@ -207,8 +207,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 input.setText("");
                 output.setText("");
-                mNum2 = 0;
-                mNum1 = 0;
             }
         });
     }
